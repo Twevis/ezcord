@@ -14,7 +14,7 @@ from .times import convert_time
 from .utils import t, set_lang
 
 
-class Bot(discord.Bot):
+class Bot(commands.Bot): 
     """Bot class that extends from :class:`discord.Bot`.
 
     Parameters
